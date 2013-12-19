@@ -1,0 +1,7 @@
+[tests]
+scripts.testcases.phone.PhoneTest.testCall = 10
+scripts.testcases.browser.BrowserTest.testOpenBrowser = 10
+
+scripts.testcases.message.MessageTest.testSendMessage1 = 10
+scripts.testcases.camera.CameraTest.testTakePicture = 10
+
