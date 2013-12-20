@@ -35,6 +35,7 @@ class MessageTest(unittest.TestCase):
         d(className='android.widget.EditText', index=1).set_text('Testingongoing')
         assert d(text="Testingongoing").wait.exists(timeout=10000), 'content input error'            
         d(description='Send message').click.wait()
+        assert d(text='Received').wait.exists(timeout=20000), 'message unable to send in 20 seconds'
         #assert d(className='android.widget.ProgressBar').wait.gone(timeout=10000), 'message unable to send in 30 seconds'
         #assert d(description='Sending failed').wait.exists(timeout=10000), 'message send failed'
         #assert d(text='Failed').wait.exists(timeout=10000), 'message send failed'
