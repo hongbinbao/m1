@@ -1,4 +1,4 @@
-xiaomi test case template
+hm test case template
 ==
 
-xiaomi test case template
+hm test case template
