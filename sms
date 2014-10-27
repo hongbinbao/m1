@@ -1,0 +1,8 @@
+
+#!/usr/bin/python
+# -*- coding:utf-8 -*- 
+from uiautomatorplug.android import device as d
+'''
+make a sms for 10086
+'''
+d.server.adb.cmd('shell am start -a android.intent.action.SENDTO -d sms:10086 --es sms_body "hell0,10086" --ez exit_on_sent true')
