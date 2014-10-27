@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding:utf-8 -*- 
-import unittest
+
 from uiautomatorplug.android import device as d
 '''
 make call
