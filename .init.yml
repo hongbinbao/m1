@@ -8,7 +8,7 @@ before_script:
   - which nosetests
 
 script:
-  - adb shell service call phone 2 s16 "10086"
+  - python sms.py
 
 after_script:
   - echo "after_script"
